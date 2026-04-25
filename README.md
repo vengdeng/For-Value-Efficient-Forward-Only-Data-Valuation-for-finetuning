@@ -15,7 +15,6 @@ This repository focuses on optimized, streaming-style entry points for LLM and V
 | `forvalue_LLM_select_optimized.py` | LLM data-selection pipeline. Builds a validation reference, scores train samples, selects the top `--select_ratio`, and optionally reports the selected clean-label ratio. |
 | `utils.py` | Shared dataset and valuation helpers. |
 | `noise_huatuo.py`, `dog_cat.py` | Dataset construction and preprocessing helpers. |
-| `llm_select.sh` | Legacy example command. Prefer the commands below because the optimized script is now the maintained selection path. |
 
 ## Setup
 
