@@ -62,7 +62,7 @@ If `clean_label` exists in the training split, `forvalue_LLM_select_optimized.py
 Run commands from the repository root:
 
 ```bash
-cd /data/dwenlong/ForwardValuation
+cd ~/ForwardValuation
 ```
 
 ### Text Forward Valuation
@@ -135,7 +135,7 @@ If the base model is weak on the target domain, first fine-tune it briefly on th
 ```bash
 python3 forvalue_LLM_select_optimized.py \
   --model_path meta-llama/Llama-3.1-8B-Instruct \
-  --load_path /data/dwenlong/ForwardValuation/ckpts_split_1ep_8gpu_lora/sft_stage1/checkpoint-0-1313/tfmr \
+  --load_path ~/ForwardValuation/ckpts_split_1ep_8gpu_lora/sft_stage1/checkpoint-0-1313/tfmr \
   --data_path Medical_noise_split_new \
   --load_from_disk \
   --device cuda:1 \
