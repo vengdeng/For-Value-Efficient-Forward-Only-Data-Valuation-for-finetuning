@@ -205,3 +205,7 @@ total_sec
 - Lower `--lowest_likelihood_ratio` to score fewer difficult positions.
 - Put scoring on a different GPU with `--score_device` when forward-pass memory and scoring memory compete.
 - For local/offline runs, add `--local_files_only` and verify that the model, tokenizer, processor, and dataset are already cached or saved on disk.
+
+## Projects Powered by or Inspired by For-Value
+
+* [Learning-Dynamics-CL](https://github.com/Joshua-Ren/learning-dynamics-cl) — *Learning Dynamics of Continual Learning: A Unified View of Data Attribution, Forgetting, and Plasticity Loss*
